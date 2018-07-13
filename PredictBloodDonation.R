@@ -1,3 +1,4 @@
+# Import the dataset from UCI data repository
 dataset <- read.table('https://archive.ics.uci.edu/ml/machine-learning-databases/blood-transfusion/transfusion.data', 
                       header = TRUE,sep=',')
 
